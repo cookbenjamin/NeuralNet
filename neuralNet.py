@@ -86,7 +86,7 @@ class NeuralNet(object):
                 deltas.append(np.multiply(error, self.sigmoid_prime(inputs)))
             else:
                 deltas.append(np.dot(deltas[-1], self._layer_weights[-i].T) * self.sigmoid_prime(inputs))
-            slopes.append(np.dot(activation.T, deltas[-1]))
+            slopes.append(np.multiply(activation.T, deltas[-1]))
         slopes = [slope.ravel() for slope in reversed(slopes)]
         return np.concatenate(slopes)
 
