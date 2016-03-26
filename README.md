@@ -12,12 +12,11 @@ You can install them by following the [scipy stack installation instructions](ht
 ```
 Import:
 >>> from neuralNet import NeuralNet
->>> import numpy as np
-
->>> x = np.array([[3, 5]])
->>> y = np.array([[.75]])
 
 >>> nn = NeuralNet()
+
+>>> x = [[3, 5]]
+>>> y = [[.75]]
 
 Train:
 >>> nn.train(x, y)
