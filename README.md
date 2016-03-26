@@ -4,7 +4,7 @@ A super simple artificial neural network in python that you can use to approxima
 
 ## Requirements
 
-The code was written to be interpreted as Python 3.
+The code was written to be interpreted as [Python 3](https://www.python.org/downloads/release/python-351/).
 
 This neural network depends upon both NumPy and SciPy. Both belong to the SciPy stack.
 You can install them by following the [SciPy stack installation instructions](http://scipy.org/install.html#individual-packages).
