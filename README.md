@@ -9,8 +9,8 @@ Import:
 >>> from neuralNet import NeuralNet
 >>> import numpy as np
 
->>> x = np.array([3, 5])
->>> y = np.array([.75])
+>>> x = np.array([[3, 5]])
+>>> y = np.array([[.75]])
 
 >>> nn = NeuralNet()
 
@@ -19,7 +19,5 @@ Train:
 
 Predict:
 >>> nn.predict(x)
-.75
+[[.750000000]]
 ```
-
-### DON'T EXPECT THIS TO WORK
