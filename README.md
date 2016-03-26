@@ -1,6 +1,6 @@
 # neuralNet
 
-A super simple artificial neural network in python that you can use to approximate pretty much any function.
+A super simple artificial neural network in python that you can use to approximate virtually any function.
 
 ## Requirements
 
