@@ -6,8 +6,8 @@ A super simple artificial neural network in python that you can use to approxima
 
 The code was written to be interpreted as Python 3.
 
-This neural network depends upon both NumPy and SciPy. Both belong to the scipy stack.
-You can install them by following the [scipy stack installation instructions](http://scipy.org/install.html#individual-packages).
+This neural network depends upon both NumPy and SciPy. Both belong to the SciPy stack.
+You can install them by following the [SciPy stack installation instructions](http://scipy.org/install.html#individual-packages).
 
 ## Usage
 
