@@ -2,6 +2,11 @@
 
 A super simple artificial neural network in python
 
+## Requirements
+
+This neural network depends upon both numpy and scipy. Both belong to the scipy stack.
+You can install them by following the [scipy stack installation instructions](http://scipy.org/install.html#individual-packages).
+
 ## Usage
 
 ```
