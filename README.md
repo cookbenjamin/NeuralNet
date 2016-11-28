@@ -1,6 +1,6 @@
 # neuralNet
 
-A super simple artificial neural network written from the ground up in pure python.
+A super simple artificial neural network written from the ground up in python.
 
 ## Requirements
 
